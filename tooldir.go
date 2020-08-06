@@ -100,5 +100,4 @@ func ensureTooldir() error {
 var gitignore = []byte(strings.TrimLeft(`
 /bin/
 /pkg/
-/manifest.json
 `, "\n"))
